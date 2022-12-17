@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;📖&lt;/text&gt;&lt;/svg&gt;">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>Notablog&nbsp;|&nbsp;PC’s Notablog</title>
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="Notablog">
+  
+  
+  <style>
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;📖&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;😀&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>About</span>
+        </div>
+      </a>
+    
+  
+    
+  
+</nav>
+  <header class="Header">
+    
+    <div class="Header__Spacer Header__Spacer--NoCover">
+    </div>
+    
+    <h1 class="Header__Title">Notablog</h1>
+    
+      <div class="DateTagBar">
+        
+          <span class="DateTagBar__Item DateTagBar__Date">Posted on Sat, Dec 17, 2022</span>
+        
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+            <a href="tag/Automation.html">Automation</a>
+          </span>
+        
+      </div>
+    
+  </header>
+  <article id="https://www.notion.so/2b008a94e2644ebaa0dfe8781b59ca2c" class="PageRoot"><div id="https://www.notion.so/dfe852f65df54f02bd2f6f3b929e6445" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">官方参考文档：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://aptrinh.js.org/notion-blogging.html">https://aptrinh.js.org/notion-blogging.html</a></span></span></p></div><div id="https://www.notion.so/c5b0383d0a414027b8d7186b34aa28c6" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><ol class="NumberedListWrapper"><li id="https://www.notion.so/40880aaeaea6465880e417ad8e7505db" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">npm部署+notion链接开放</span></span></li><li id="https://www.notion.so/64476bcb9a6848b18edb932da59eaed8" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">generate与mac预览</span></span><pre id="https://www.notion.so/3ddae17caf59492b99a3450939c40c8c" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>➜  notablog git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> ✗ notablog preview <span class="token builtin class-name">.</span>
+node:events:505
+      throw er<span class="token punctuation">;</span> // Unhandled <span class="token string">'error'</span> event
+      ^
+
+Error: spawn /usr/bin/chromium ENOENT
+    at Process.ChildProcess._handle.onexit <span class="token punctuation">(</span>node:internal/child_process:283:19<span class="token punctuation">)</span>
+    at onErrorNT <span class="token punctuation">(</span>node:internal/child_process:476:16<span class="token punctuation">)</span>
+    at processTicksAndRejections <span class="token punctuation">(</span>node:internal/process/task_queues:83:21<span class="token punctuation">)</span>
+Emitted <span class="token string">'error'</span> event on ChildProcess instance at:
+    at Process.ChildProcess._handle.onexit <span class="token punctuation">(</span>node:internal/child_process:289:12<span class="token punctuation">)</span>
+    at onErrorNT <span class="token punctuation">(</span>node:internal/child_process:476:16<span class="token punctuation">)</span>
+    at processTicksAndRejections <span class="token punctuation">(</span>node:internal/process/task_queues:83:21<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  errno: -2,
+  code: <span class="token string">'ENOENT'</span>,
+  syscall: <span class="token string">'spawn /usr/bin/chromium'</span>,
+  path: <span class="token string">'/usr/bin/chromium'</span>,
+  spawnargs: <span class="token punctuation">[</span> <span class="token string">'public/index.html'</span> <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+Node.js v17.9.0</span></span></span></code></pre><div id="https://www.notion.so/7b72d2c02b8d46b8af1b4db8116971f3" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">参考</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://github.com/puppeteer/puppeteer/issues/5662#issuecomment-891297815">该issue</a></span><span class="SemanticString"> ， 是puppeteer中路径错误导致的问题</span></span></p></div></li><li id="https://www.notion.so/701b85fd657b43b6893f8dd0ab933761" class="NumberedList" value="3"><span class="SemanticStringArray"><span class="SemanticString">静态网页安置</span></span></li><li id="https://www.notion.so/c663725b1e264ded989fa31c9bd66d88" class="NumberedList" value="4"><span class="SemanticStringArray"></span></li></ol></article>
+  <footer class="Footer">
+  <div>&copy; PC’s Notablog 2022</div>
+  <div>&centerdot;</div>
+  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
+      rel="noopener noreferrer">Notablog</a>.
+  </div>
+</footer>
+</body>
+
+</html>
